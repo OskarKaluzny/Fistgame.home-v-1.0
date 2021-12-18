@@ -6,11 +6,12 @@
 }
 .a {
     background-color: red;
+    text-align: center;
 }
 .Navbar{
     background-color: blue;
     width: 100%;
-    justify-content: center;
+    text-align: center;
     }
 .Video.display {
     position: relative;
@@ -21,20 +22,26 @@
 
 }
 .title-content{
-    background-color: red;
+    text-align: center;
+    background-color: gray;
 }
 .Section-content{
+    text-align: center;
     background-color: blue;
 }
 .footer1{
     background-color: red;
+    text-align: center;
 }
 .footer2{
     background-color: blue;
+    text-align: center;
 }
 .footer3{
-background-color: red;
+    background-color: red;
+    text-align: center;
 }
-.footer4{
-background-color: blue;
+.footer4 {
+    text-align: center;    
+    background-color: blue;
 }
