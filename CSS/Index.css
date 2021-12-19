@@ -13,16 +13,18 @@
 .Navbar {
     background-color: blue;
     width: 100%;
-    text-align: center;
-    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
 }
+
 .Navbar a {
-    text-decoration:none;
+    text-decoration: none;
     color: black;
     background-color: white;
     border: solid black 3px;
     border-radius: 10px;
-    
     margin: 2px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
 }
@@ -50,48 +52,65 @@
 .footer1 {
     background-color: red;
     text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .footer2 {
     background-color: blue;
     text-align: center;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer3 {
     background-color: red;
     text-align: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
     justify-content: center;
 }
 
 .footer4 {
     text-align: center;
     background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
 }
-.footer1 a{
-    text-decoration:none;
+
+.footer1 a {
+    text-decoration: none;
     color: black;
     background-color: white;
     border: solid black 3px;
     border-radius: 10px
 }
 
-.footer2 a{
-    text-decoration:none;
+.footer2 a {
+    text-decoration: none;
     color: black;
     background-color: white;
     border: solid black 3px;
     border-radius: 10px;
 }
 
-.footer3 a{
-    text-decoration:none;
+.footer3 a {
+    text-decoration: none;
     color: black;
     background-color: white;
     border: solid black 3px;
     border-radius: 10px
 }
 
-.footer4 a{
-    text-decoration:none;
+.footer4 a {
+    text-decoration: none;
     color: black;
     background-color: white;
     border: solid black 3px;
